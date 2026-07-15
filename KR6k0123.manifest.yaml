@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0123/v1
 canonical_location: https://kanripo.org/bkk/KR6k0123/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 菩薩戒本
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0123_000.yaml, hash: 'sha256:bca2891d745e1d42d5888e41e721f38aab8739b5f93e80a15dd9086d28c28716'}
-  - {seq: 1, filename: KR6k0123_001.yaml, hash: 'sha256:17bde45dcfd6202d4322509256f40134879609f11f88a54abd06ae80ed199cd2'}
+  - {seq: 1, filename: KR6k0123_001.yaml, hash: 'sha256:597d33cb47da967f342db1c0d5c1c7b5d450528317fbf996fd59948cc47830cd'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0123_000.markers.yaml, hash: 'sha256:ad93443226e859fb772e32846afbde816b2e3b25fd313e9e8b2a0e6232f17ea8'}
-  - {seq: 1, role: markers, filename: assets/KR6k0123_001.markers.yaml, hash: 'sha256:8634a9eaaac0d539f274dd96120df071d43a24a0184d4c7e75c4715416c8147a'}
+  - {seq: 1, role: markers, filename: assets/KR6k0123_001.markers.yaml, hash: 'sha256:c447790d2bec918731e9526797e1811e489ed380b9253226599630025c89bbb9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 菩薩戒本出《瑜伽論．本事分》中菩薩地
   type: juan
   level: 1
-hash: sha256:1f6ae9cae9878762b83b3faf0751c02285c9187c71ac1b429931ba20a8c30001
+hash: sha256:ccd3e760b08e2f84089b51409d72c2b13a7376305a74bd63814d0f1304a4d665
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
